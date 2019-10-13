@@ -1,0 +1,10 @@
+/* pages/index8/index8.wxss */
+swiper{
+  width: 100%;
+  height: 150px;
+}
+swiper-ite{
+}  
+image{
+  width: 100%
+}
