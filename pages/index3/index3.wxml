@@ -1,8 +1,0 @@
-<!--pages/index3/index3.wxml-->
-<view>
-
-{{number1+number2}}||{{str1+str2}}
-</view>
-<view>
-<checkbox checked="{{isChecked}}"> </checkbox>
-</view>
