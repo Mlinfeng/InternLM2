@@ -28,6 +28,7 @@ ssh -CNg -L 6006:127.0.0.1:6006 root@ssh.intern-ai.org.cn -p 38970
 ### 3. 使用 `Lagent` 运行 `InternLM2-Chat-7B` 模型
 - **Lagent 介绍**：轻量级智能体框架，可将大型语言模型转化为多种类型的智能体。
 - **环境配置和模型运行**：调整资源配置后，下载 Lagent 并运行 `InternLM2-Chat-7B` 模型。
+![image](https://github.com/Mlinfeng/InternLM2/assets/50072711/bd47aa8d-83c5-410f-aba8-ecbf1f0c6c80)
 
 ### 4. 部署 `浦语·灵笔2` 模型
 - **模型介绍**：图文多模态大模型，具有出色的图文写作和图像理解能力。
