@@ -5,7 +5,16 @@
 ![image](https://github.com/Mlinfeng/InternLM2/assets/50072711/2be82762-64b9-4e30-bb2c-95b454d49f52)
 - 熟悉 `huggingface` 下载功能，使用 `huggingface_hub` python 包，下载 `InternLM2-Chat-7B` 的 `config.json` 文件到本地（需截图下载过程）
   
-- 完成 `浦语·灵笔2` 的 `图文创作` 及 `视觉问答` 部署（需截图）
+- 完成 的 `图文创作` （需截图）
+  后台运行图
+![image](https://github.com/Mlinfeng/InternLM2/assets/50072711/5f3cc9c2-0f87-4c60-ac59-7b4d974f27e0)
+前端展示
+![image](https://github.com/Mlinfeng/InternLM2/assets/50072711/f97053a0-b689-4f5c-b0ed-a4a15f02fba5)
+
+`浦语·灵笔2- `视觉问答` 部署
+
+
+  
 - 完成 `Lagent` 工具调用 `数据分析` Demo 部署（需截图）
 
 ### 1. 部署和使用 `InternLM2-Chat-1.8B` 模型进行智能对话
