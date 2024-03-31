@@ -12,10 +12,12 @@
 ![image](https://github.com/Mlinfeng/InternLM2/assets/50072711/f97053a0-b689-4f5c-b0ed-a4a15f02fba5)
 
 `浦语·灵笔2- `视觉问答` 部署
-
-
-  
+![image](https://github.com/Mlinfeng/InternLM2/assets/50072711/1225655e-96e1-40d7-87c6-3e8141325db5)
+`浦语·灵笔2- `视觉问答` 部署结果：
+![image](https://github.com/Mlinfeng/InternLM2/assets/50072711/ebbb2be6-a9d0-46fe-8530-8e800adc9452)
 - 完成 `Lagent` 工具调用 `数据分析` Demo 部署（需截图）
+![image](https://github.com/Mlinfeng/InternLM2/assets/50072711/bd47aa8d-83c5-410f-aba8-ecbf1f0c6c80)
+
 
 ### 1. 部署和使用 `InternLM2-Chat-1.8B` 模型进行智能对话
 - **配置环境**：使用 `Intern Studio` 创建和配置开发机，安装必要的软件包。
