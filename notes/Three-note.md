@@ -1,4 +1,36 @@
 # 第3课作业
+
+## 基础作业 - 完成下面两个作业
+
+### 1. 在[茴香豆 Web 版](https://openxlab.org.cn/apps/detail/tpoisonooo/huixiangdou-web)中创建自己领域的知识问答助手
+
+运行 ***conda*** 命令，激活 `InternLM2_Huixiangdou`  ***python*** 虚拟环境:
+
+```bash
+conda activate InternLM2_Huixiangdou
+
+```
+
+环境激活后，命令行左边会显示当前（也就是 `InternLM2_Huixiangdou`）的环境名称，如下图所示:
+
+![](imgs/env.png)
+
+后续教程所有操作都需要在该环境下进行，重启开发机或打开新命令行后要重新激活环境!!!。
+
+
+
+
+- 参考视频[零编程玩转大模型，学习茴香豆部署群聊助手](https://www.bilibili.com/video/BV1S2421N7mn)
+- 线上茴香豆助手对话截图(不少于5轮)
+
+
+### 2.在 `InternLM Studio` 上部署茴香豆技术助手
+
+- 根据教程文档搭建 `茴香豆技术助手`，针对问题"茴香豆怎么部署到微信群？"进行提问
+- 完成不少于 400 字的笔记 + 截图
+
+
+
 ## 笔记
  - 茴香豆是一款基于检索增强生成（RAG）技术的零代码领域知识助手，旨在提供快速准确的知识问答服务。它由书生葡语团队开发，适用于智能客服及群聊场景，如微信群、飞书群等，以及用于个人知识领域的助手创建。
 ![image](https://github.com/Mlinfeng/InternLM2/assets/50072711/0b252666-42e0-4477-ad04-2e253e97fe8d)
