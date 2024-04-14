@@ -1,7 +1,5 @@
 # 第 4 节课作业
 
-记录复现过程并截图
-
 - 刚开始以为直接调用，运行一下发现不行，往上翻了翻，发现xtuner还没安装
 - ![image](https://github.com/Mlinfeng/InternLM2/assets/50072711/e8823b5c-9a10-4bcc-a810-32947c8320ac)
 - 跑吧跑吧，谁能跑得过你啊
@@ -23,6 +21,9 @@
 - ![image](https://github.com/Mlinfeng/InternLM2/assets/50072711/32558a38-c523-48b4-a553-d42501e60bc5)
 ## 模型训练
 -![image](https://github.com/Mlinfeng/InternLM2/assets/50072711/82f859ea-b7a3-4ec1-bec2-d3486eba9161)
+- 训练结果：
+- ![image](https://github.com/Mlinfeng/InternLM2/assets/50072711/bf1b68c5-3c50-46d8-bec9-d1db3bce160e)
+
 
 
 
