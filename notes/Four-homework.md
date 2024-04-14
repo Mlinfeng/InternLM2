@@ -23,6 +23,9 @@
 -![image](https://github.com/Mlinfeng/InternLM2/assets/50072711/82f859ea-b7a3-4ec1-bec2-d3486eba9161)
 - 训练结果：
 - ![image](https://github.com/Mlinfeng/InternLM2/assets/50072711/bf1b68c5-3c50-46d8-bec9-d1db3bce160e)
+- 使用 deepspeed 来加速训练
+- 使用体验，确实比普通训练要快
+- ![image](https://github.com/Mlinfeng/InternLM2/assets/50072711/cd96d801-338e-4fc7-b684-fef101ae3c76)
 
 
 
