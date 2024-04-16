@@ -4,7 +4,9 @@
 - 使用 `InternLM2-Chat-1.8B` 模型生成 300 字的小故事
 ![image](https://github.com/Mlinfeng/InternLM2/assets/50072711/2be82762-64b9-4e30-bb2c-95b454d49f52)
 - 熟悉 `huggingface` 下载功能，使用 `huggingface_hub` python 包，下载 `InternLM2-Chat-7B` 的 `config.json` 文件到本地（需截图下载过程）
-  
+- ![image](https://github.com/Mlinfeng/InternLM2/assets/50072711/3e1faa79-048a-4252-a9f5-f9044b61ac96)
+
+
 - 完成 的 `图文创作` （需截图）
   后台运行图
 ![image](https://github.com/Mlinfeng/InternLM2/assets/50072711/5f3cc9c2-0f87-4c60-ac59-7b4d974f27e0)
