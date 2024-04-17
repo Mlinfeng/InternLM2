@@ -1,9 +1,17 @@
 # 第五节课作业
 
-## 基础作业（结营必做）
+## 基础作业
 完成以下任务，并将实现过程记录截图：
 - 配置 LMDeploy 运行环境
+- -环境部署中：
+- -![image](https://github.com/Mlinfeng/InternLM2/assets/50072711/6b6ff795-74ae-441a-a734-1aa1f0d7ad0c)
+- 环境部署成功
+- ![image](https://github.com/Mlinfeng/InternLM2/assets/50072711/b89cd15b-d746-4c84-8f02-8760fd740e4a)
+
+
 - 以命令行方式与 InternLM2-Chat-1.8B 模型对话
+-![image](https://github.com/Mlinfeng/InternLM2/assets/50072711/216a71ac-5b7b-4a93-aefa-e1b087ac138d)
+  -ps:这一步好像有个坑，两个module需要安装sentencepiece，transformer
 
 ## 进阶作业
 
