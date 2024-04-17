@@ -37,6 +37,14 @@
 - Gradio网页客户端与模型对话
 - ssh -CNg -L 6006:127.0.0.1:6006 root@ssh.intern-ai.org.cn -p 43304
 - 
+
 - 使用W4A16量化，调整KV Cache的占用比例为0.4，使用Python代码集成的方式运行internlm2-chat-1.8b模型。（优秀学员必做）
 - 使用 LMDeploy 运行视觉多模态大模型 llava gradio demo。（优秀学员必做）
+- 命令行运行
+- ![image](https://github.com/Mlinfeng/InternLM2/assets/50072711/07dbc5ee-eef3-4383-8508-d3ad81c2d4ff)
+- gradio网页运行
+- ssh -CNg -L 7860:127.0.0.1:7860 root@ssh.intern-ai.org.cn -p 43304
+- ![image](https://github.com/Mlinfeng/InternLM2/assets/50072711/21dbc9fa-aa83-469a-97f5-6285d9a831cf)
+
+
 - 将 LMDeploy Web Demo 部署到 [OpenXLab](../tools/openxlab-deploy/) 。（优秀学员必做）
