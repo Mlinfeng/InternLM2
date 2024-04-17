@@ -13,7 +13,9 @@
 
 
 2. 完成 AgentLego 直接使用部分，并在作业中上传截图。
-   
+- 配置中
+- ![image](https://github.com/Mlinfeng/InternLM2/assets/50072711/b35ca5ad-a175-4852-b95b-265bf5c91052)
+
 ## 进阶作业
 
 1. 完成 AgentLego WebUI 使用，并在作业中上传截图。文档可见 [AgentLego WebUI](agentlego.md#2-作为智能体工具使用)。
