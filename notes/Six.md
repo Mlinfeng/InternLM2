@@ -3,9 +3,16 @@
 
 ## 基础作业
 
-1. 完成 Lagent Web Demo 使用，并在作业中上传截图。文档可见 [Lagent Web Demo](lagent.md#1-lagent-web-demo)
-   -
-3. 完成 AgentLego 直接使用部分，并在作业中上传截图。文档可见 [直接使用 AgentLego](agentlego.md#1-直接使用-agentlego)。
+1. 完成 Lagent Web Demo 使用，并在作业中上传截图。
+ -后端配置
+- ![image](https://github.com/Mlinfeng/InternLM2/assets/50072711/ae3149a2-806a-48aa-a1e3-335b8a9cf29d)
+- ![image](https://github.com/Mlinfeng/InternLM2/assets/50072711/56638716-af2c-442a-9cb2-2af6d1539469)
+- Web Demo运行
+- ![image](https://github.com/Mlinfeng/InternLM2/assets/50072711/d831ca48-f2df-4072-994f-6e0e6fc2090e)
+
+
+
+2. 完成 AgentLego 直接使用部分，并在作业中上传截图。
    
 ## 进阶作业
 
