@@ -3,6 +3,13 @@
 ### 基础作业
 
 - 使用 OpenCompass 评测 internlm2-chat-1_8b 模型在 C-Eval 数据集上的性能
+- 环境部署
+- ![image](https://github.com/Mlinfeng/InternLM2/assets/50072711/b2d388be-6ced-43f4-b7bb-b074da888042)
+- 部署完成，查看支持的类型
+- ![image](https://github.com/Mlinfeng/InternLM2/assets/50072711/88e48517-d2d4-4276-9360-7574a1ad24fe)
+- 
+
+
 
 ### 进阶作业
 
