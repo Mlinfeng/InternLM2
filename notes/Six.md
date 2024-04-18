@@ -22,9 +22,14 @@
 
 ## 进阶作业
 
-1. 完成 AgentLego WebUI 使用，并在作业中上传截图。文档可见 [AgentLego WebUI](agentlego.md#2-作为智能体工具使用)。
+1. 完成 AgentLego WebUI 使用，并在作业中上传截图。
   - 配置中
 - ![image](https://github.com/Mlinfeng/InternLM2/assets/50072711/b35ca5ad-a175-4852-b95b-265bf5c91052)
+- ![image](https://github.com/Mlinfeng/InternLM2/assets/50072711/b6d1fe59-ef73-46f7-bb85-cc5195712e4a)
+- ![image](https://github.com/Mlinfeng/InternLM2/assets/50072711/6b55c6ea-dc59-4f5e-89dc-d55d62b012e2)
+
+
+- ssh -CNg -L 7860:127.0.0.1:7860 -L 23333:127.0.0.1:23333 root@ssh.intern-ai.org.cn -p 43304
 2. 使用 Lagent 或 AgentLego 实现自定义工具并完成调用，并在作业中上传截图。文档可见：
    - [用 Lagent 自定义工具](lagent.md#2-用-lagent-自定义工具)
    - [用 AgentLego 自定义工具](agentlego.md#3-用-agentlego-自定义工具)
