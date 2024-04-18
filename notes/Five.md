@@ -36,7 +36,11 @@
 
 - Gradio网页客户端与模型对话
 - ssh -CNg -L 6006:127.0.0.1:6006 root@ssh.intern-ai.org.cn -p 43304
-- 
+- 降低了到Gradio==3.50.2 gradio_client==0.6.1 才算是启动成功-(谢谢助教六一的帮助)
+- ![image](https://github.com/Mlinfeng/InternLM2/assets/50072711/37241e34-5fe7-4021-8a16-e9a486434311)
+- ![image](https://github.com/Mlinfeng/InternLM2/assets/50072711/3eb2a167-eb92-4a4a-af11-1939cbf17ed8)
+
+
 
 - 使用W4A16量化，调整KV Cache的占用比例为0.4，使用Python代码集成的方式运行internlm2-chat-1.8b模型。（优秀学员必做）
 - 使用 LMDeploy 运行视觉多模态大模型 llava gradio demo。（优秀学员必做）
