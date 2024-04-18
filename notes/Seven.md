@@ -7,7 +7,9 @@
 - ![image](https://github.com/Mlinfeng/InternLM2/assets/50072711/b2d388be-6ced-43f4-b7bb-b074da888042)
 - 部署完成，查看支持的类型
 - ![image](https://github.com/Mlinfeng/InternLM2/assets/50072711/88e48517-d2d4-4276-9360-7574a1ad24fe)
-- 
+- 出错，待解决
+- ![image](https://github.com/Mlinfeng/InternLM2/assets/50072711/3f50be0c-86c3-4de4-92fd-319076bb074e)
+
 
 
 
