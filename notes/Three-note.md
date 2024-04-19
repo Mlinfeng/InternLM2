@@ -22,9 +22,10 @@ conda activate InternLM2_Huixiangdou
 
 - ssh -CNg -L 7860:127.0.0.1:7860 root@ssh.intern-ai.org.cn -p 44377
 - Gradio网页端搭建
-- ![image](https://github.com/Mlinfeng/InternLM2/assets/50072711/e0f402e7-1bf5-42c1-aed4-2ad87ce6d5d8)
+- 
 - 邪门
 - ![image](https://github.com/Mlinfeng/InternLM2/assets/50072711/09791a87-8ffc-4b58-9065-e1bdbf24694d)
+- ![image](https://github.com/Mlinfeng/InternLM2/assets/50072711/e0f402e7-1bf5-42c1-aed4-2ad87ce6d5d8)
 
 
 
