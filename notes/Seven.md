@@ -14,6 +14,8 @@
 - ![image](https://github.com/Mlinfeng/InternLM2/assets/50072711/f66588b7-205a-42df-8e54-c67aa3c15e93)
 - 有一个MLP的bug，要指定export MKL_SERVICE_FORCE_INTEL=1
 - ![image](https://github.com/Mlinfeng/InternLM2/assets/50072711/0d956dda-9c68-47b9-9d70-31f62ea32999)
+- ![image](https://github.com/Mlinfeng/InternLM2/assets/50072711/c482f8a9-34ee-4c19-ac15-f4eeed6b031e)
+
 
 
 
