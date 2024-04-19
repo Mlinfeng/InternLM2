@@ -13,21 +13,19 @@ conda activate InternLM2_Huixiangdou
 
 环境激活后，命令行左边会显示当前（也就是 `InternLM2_Huixiangdou`）的环境名称，如下图所示:
 
-![](imgs/env.png)
+- ![image](https://github.com/Mlinfeng/InternLM2/assets/50072711/a4ad2d45-7c54-4db4-bdb7-8be283891285)
 
-后续教程所有操作都需要在该环境下进行，重启开发机或打开新命令行后要重新激活环境!!!。
-
-
-
-
-- 参考视频[零编程玩转大模型，学习茴香豆部署群聊助手](https://www.bilibili.com/video/BV1S2421N7mn)
-- 线上茴香豆助手对话截图(不少于5轮)
-
-
-### 2.在 `InternLM Studio` 上部署茴香豆技术助手
-
+- 后续教程所有操作都需要在该环境下进行，重启开发机或打开新命令行后要重新激活环境!!!。
+- 
 - 根据教程文档搭建 `茴香豆技术助手`，针对问题"茴香豆怎么部署到微信群？"进行提问
-- 完成不少于 400 字的笔记 + 截图
+- ![image](https://github.com/Mlinfeng/InternLM2/assets/50072711/6f9756ac-91c3-489e-b7ab-75a5786e4e0e)
+
+  ssh -CNg -L 7860:127.0.0.1:7860 root@ssh.intern-ai.org.cn -p 44377
+  Gradio网页端搭建
+- ![image](https://github.com/Mlinfeng/InternLM2/assets/50072711/e0f402e7-1bf5-42c1-aed4-2ad87ce6d5d8)
+- 邪门
+- ![image](https://github.com/Mlinfeng/InternLM2/assets/50072711/09791a87-8ffc-4b58-9065-e1bdbf24694d)
+
 
 
 
