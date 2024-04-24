@@ -1,8 +1,8 @@
 # 第3课作业
 
-## 基础作业 - 完成下面两个作业
+## 基础作业 - 完成下面作业
 
-### 1. 在[茴香豆 Web 版](https://openxlab.org.cn/apps/detail/tpoisonooo/huixiangdou-web)中创建自己领域的知识问答助手
+### 2.在 `InternLM Studio` 上部署茴香豆技术助手
 
 运行 ***conda*** 命令，激活 `InternLM2_Huixiangdou`  ***python*** 虚拟环境:
 
@@ -21,11 +21,7 @@ conda activate InternLM2_Huixiangdou
 - ![image](https://github.com/Mlinfeng/InternLM2/assets/50072711/6f9756ac-91c3-489e-b7ab-75a5786e4e0e)
 
 - ssh -CNg -L 7860:127.0.0.1:7860 root@ssh.intern-ai.org.cn -p 44377
-- Gradio网页端搭建
-- 
-- 邪门
-- ![image](https://github.com/Mlinfeng/InternLM2/assets/50072711/09791a87-8ffc-4b58-9065-e1bdbf24694d)
-- ![image](https://github.com/Mlinfeng/InternLM2/assets/50072711/e0f402e7-1bf5-42c1-aed4-2ad87ce6d5d8)
+
 
 
 
