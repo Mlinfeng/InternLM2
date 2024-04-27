@@ -1,6 +1,7 @@
 <div align="center">
 
-![images](https://github.com/InternLM/Tutorial/tree/camp2/helloworld/images/logo)
+![image](https://github.com/Mlinfeng/InternLM2/assets/50072711/ec75396b-3279-4f4e-af28-fcaac34bbe17)
+
 
 </div>
 
