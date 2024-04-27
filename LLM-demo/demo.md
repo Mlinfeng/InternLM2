@@ -13,8 +13,8 @@
 
 - **部署 `InternLM2-Chat-1.8B` 模型进行智能对话**
 - **部署实战营优秀作品 `八戒-Chat-1.8B` 模型**
-- **通过 `InternLM2-Chat-7B` 运行 `Lagent` 智能体 `Demo`**
-- **实践部署 `浦语·灵笔2` 模型**
+- **可选-通过 `InternLM2-Chat-7B` 运行 `Lagent` 智能体 `Demo`**
+- **可选-实践部署 `浦语·灵笔2` 模型**
 
 ## 2 **部署 `InternLM2-Chat-1.8B` 模型进行智能对话**
 
@@ -235,7 +235,7 @@ ssh -CNg -L 6006:127.0.0.1:6006 root@ssh.intern-ai.org.cn -p 38374
 
 ![alt text](images/img-D.png)
 
-##  4 **实战：使用 `Lagent` 运行 `InternLM2-Chat-7B` 模型（开启 30% A100 权限后才可开启此章节）**
+##  4 **实战：使用 `Lagent` 运行 `InternLM2-Chat-7B` 模型（开启 30% A100 ）**
 
 ### 4.1 **初步介绍 Lagent 相关知识**
 Lagent 是一个轻量级、开源的基于大语言模型的智能体（agent）框架，支持用户快速地将一个大语言模型转变为多种类型的智能体，并提供了一些典型工具为大语言模型赋能。它的整个框架图如下:
@@ -495,100 +495,3 @@ pytorch: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
 EOF
 ```
 
-### 6.2 **（可选参考）模型下载**
-
-以下下载模型的操作不建议大家在开发机进行哦，在开发机下载模型会占用开发机的大量带宽和内存，下载等待的时间也会比较长，不利于大家学习。大家可以在自己的本地电脑尝试哦~
-
-#### 6.2.1 **Hugging Face**
-
-使用 `Hugging Face` 官方提供的 `huggingface-cli` 命令行工具。安装依赖:
-
-```bash
-pip install -U huggingface_hub
-```
-
-然后新建 `python` 文件，填入以下代码，运行即可。
-
-+ resume-download：断点续下
-+ local-dir：本地存储路径。
-
-其中 linux 环境下需要填写绝对路径.
-
-```python
-import os
-# 下载模型
-os.system('huggingface-cli download --resume-download internlm/internlm2-chat-7b --local-dir your_path')
-```
-
-以下内容将展示使用 `huggingface_hub` 下载模型中的部分文件
-
-```python
-import os 
-from huggingface_hub import hf_hub_download  # Load model directly 
-
-hf_hub_download(repo_id="internlm/internlm2-7b", filename="config.json")
-```
-
-#### 6.2.2 **ModelScope**
-
-使用 `modelscope` 中的 `snapshot_download` 函数下载模型，第一个参数为模型名称，参数 `cache_dir` 为模型的下载路径。
-
-注意：`cache_dir` 最好为绝对路径。
-
-安装依赖：
-
-```bash
-pip install modelscope==1.9.5
-pip install transformers==4.35.2
-```
-
-在当前目录下新建 `python` 文件，填入以下代码，运行即可。
-
-```python
-import torch
-from modelscope import snapshot_download, AutoModel, AutoTokenizer
-import os
-model_dir = snapshot_download('Shanghai_AI_Laboratory/internlm2-chat-7b', cache_dir='your path', revision='master')
-```
-
-#### 6.2.3 **OpenXLab**
-
-`OpenXLab` 可以通过指定模型仓库的地址，以及需要下载的文件的名称，文件所需下载的位置等，直接下载模型权重文件，使用 `download` 函数导入模型中心的模型。
-
-```python
-import torch
-import os
-from transformers import AutoModelForCausalLM, AutoTokenizer, AutoModel
-base_path = './local_files'
-os.system('apt install git')
-os.system('apt install git-lfs')
-os.system(f'git clone https://code.openxlab.org.cn/Usr_name/repo_name.git {base_path}')
-os.system(f'cd {base_path} && git lfs pull')
-```
-
-### 6.3 **（可选参考）软链接清除方法**
-
-当我们建立安全链接之后，如果想要将其删除可以选择以下命令：
-
-```bash
-unlink link_name
-```
-
-我们举一个例子，当我想删除软链接 `/root/demo/internlm2-chat-7b` 时：
-
-```bash
-cd /root/demo/
-unlink internlm2-chat-7b
-```
-
-### 6.4 **（可选参考）Terminal 终端清除方法**
-
-**在运行 `gradio` 程序时，如果需要退出，需要按照图中所示步骤，在 `terminal` 栏目中点击关闭，然后再重新打开一个 `terminal` 以继续后面的实验。（否则会出现 `显存耗尽` 的情况）**
-
-![alt text](images/check-3.png)
-
-以上章节内容仅供参考，并不作为必须实践的内容。
-
-## 7 **作业**
-
-实战营作业被放置于 **[homework](homework.md)** 文档，完成课程基础作业可以在后续学习中获得升级算力的机会哦！
