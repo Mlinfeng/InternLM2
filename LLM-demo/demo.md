@@ -1,6 +1,6 @@
 <div align="center">
 
-![images](https://github.com/InternLM/Tutorial/tree/camp2/helloworld/images/logo.jpg)
+![images](https://github.com/InternLM/Tutorial/tree/camp2/helloworld/images/logo)
 
 </div>
 
