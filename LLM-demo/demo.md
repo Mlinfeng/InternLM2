@@ -8,7 +8,7 @@
 
 - **部署 `InternLM2-Chat-1.8B` 模型进行智能对话**
 - **部署调优作品 `八戒-Chat-1.8B` 模型**
-- **可选-通过 `InternLM2-Chat-7B` 运行 `Lagent` 智能体 `Demo`**
+- **课后作业-通过 `InternLM2-Chat-7B` 运行 `Lagent` 智能体 `Demo`**
 
 ## 2 **部署 `InternLM2-Chat-1.8B` 模型进行智能对话**
 
