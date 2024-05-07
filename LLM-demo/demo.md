@@ -198,13 +198,13 @@ streamlit run /root/Tutorial/helloworld/bajie_chat.py --server.address 127.0.0.1
 
 ![alt text](images/img-8.png)
 
-打开 PowerShell 后，先查询端口，再根据端口键入命令 （例如图中端口示例为 46528）：
+打开 PowerShell 后，先查询端口，再根据端口键入命令 （例如图中端口示例为 38374）：
 
 ![alt text](images/img-A.png)
 
 ```bash
 # 从本地使用 ssh 连接 studio 端口
-# 将下方端口号 38374 替换成自己的端口号！！！重要
+# 将下方端口号 46528 替换成自己的端口号！！！重要
 ssh -CNg -L 6006:127.0.0.1:6006 root@ssh.intern-ai.org.cn -p 46528
 ```
 
