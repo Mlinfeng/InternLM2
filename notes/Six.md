@@ -50,10 +50,7 @@
    - 如2.1一样启动api，和demo之后，进行本地映射
    - ssh -CNg -L 7860:127.0.0.1:7860 -L 23333:127.0.0.1:23333 root@ssh.intern-ai.org.cn -p 47708
    - Lagent Web Demo 访问-成功
-   - ![image](https://github.com/Mlinfeng/InternLM2/assets/50072711/a81b04ca-f0b3-49f2-ad61-52c2e8266f0f)
-
-
-
+   - ![image](https://github.com/Mlinfeng/InternLM2/assets/50072711/287de950-2299-42f5-b9cb-2f999d5da082)
 
 
 
