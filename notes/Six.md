@@ -31,8 +31,33 @@
 
 - ssh -CNg -L 7860:127.0.0.1:7860 -L 23333:127.0.0.1:23333 root@ssh.intern-ai.org.cn -p 43304
 2. 使用 Lagent 或 AgentLego 实现自定义工具并完成调用，并在作业中上传截图。文档可见：
-   - [用 Lagent 自定义工具](lagent.md#2-用-lagent-自定义工具)
-   - [用 AgentLego 自定义工具](agentlego.md#3-用-agentlego-自定义工具)
+## 2.1  [用 Lagent 自定义工具](lagent.md#2-用-lagent-自定义工具)
+   - 使用 LMDeploy 部署
+   - ![image](https://github.com/Mlinfeng/InternLM2/assets/50072711/c11d910d-92e8-455c-b550-243f17425e99)
+   -  LMDeploy api_server启动成功
+   -  ![image](https://github.com/Mlinfeng/InternLM2/assets/50072711/709f1a1a-e03e-4477-b14d-b279ae28038b)
+   -  启动 Lagent Web Demo-成功
+   -  ![image](https://github.com/Mlinfeng/InternLM2/assets/50072711/be387ad1-d29b-4ac6-b5b9-955835bc0684)
+   -  本地映射：
+   -  ssh -CNg -L 7860:127.0.0.1:7860 -L 23333:127.0.0.1:23333 root@ssh.intern-ai.org.cn -p 47708
+   -  Lagent Web Demo 访问
+   -  ![image](https://github.com/Mlinfeng/InternLM2/assets/50072711/d44c5b3a-f60a-41af-8666-c7a77bd24a28)
+
+## 2.2 用 Lagent 自定义工具
+   - [用 AgentLego 自定义工具]
+   - 申请和风天气API Key
+   - ![image](https://github.com/Mlinfeng/InternLM2/assets/50072711/818b3e63-53af-422f-8c7a-d6f879e4cb0f)
+   - 如2.1一样启动api，和demo之后，进行本地映射
+   - ssh -CNg -L 7860:127.0.0.1:7860 -L 23333:127.0.0.1:23333 root@ssh.intern-ai.org.cn -p 47708
+   - Lagent Web Demo 访问-成功
+   - ![image](https://github.com/Mlinfeng/InternLM2/assets/50072711/a81b04ca-f0b3-49f2-ad61-52c2e8266f0f)
+
+
+
+
+
+
+
 
 ## 大作业选题
 
@@ -46,4 +71,4 @@
 
 1. 基于 Lagent 或 AgentLego 实现一个客服智能体，帮助用户解决问题。
 2. 基于 Lagent 或 AgentLego 实现一个智能体，实现艺术创作，如生成图片、视频、音乐等。
-3. ...
+
