@@ -27,7 +27,17 @@
 - 使用体验，确实比普通训练要快
 - ![image](https://github.com/Mlinfeng/InternLM2/assets/50072711/cd96d801-338e-4fc7-b684-fef101ae3c76)
 
+## 进阶作业
 
+- 将自我认知的模型上传到 OpenXLab，并将应用部署到 OpenXLab（优秀学员必做）
+- 配置 Git Username
+
+- git config --global user.name "mlinfeng"
+- git config --global user.email "dionfong@outlook.com"
+- 复现多模态微调（优秀学员必做）
+
+
+OpenXLab 部署教程：https://github.com/InternLM/Tutorial/tree/camp2/tools/openxlab-deploy
 
 
 
