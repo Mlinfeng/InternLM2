@@ -34,7 +34,14 @@
 
 - git config --global user.name "mlinfeng"
 - git config --global user.email "dionfong@outlook.com"
-- 复现多模态微调（优秀学员必做）
+- 模型上传到github
+- ![image](https://github.com/Mlinfeng/InternLM2/assets/50072711/74c7cb8c-2879-4c6d-bda0-c213fc6adaed)
+- OpenXLab平台构建应用
+- ![image](https://github.com/Mlinfeng/InternLM2/assets/50072711/1e6c17d7-c0e3-43c2-8608-f79d09b87f13)
+- 内存不够，要申请更高内存的机器
+- ![image](https://github.com/Mlinfeng/InternLM2/assets/50072711/ffed1607-496c-497d-b684-d9183d62ddfe)
+- ![image](https://github.com/Mlinfeng/InternLM2/assets/50072711/d0cc865c-6028-4d4f-914b-e39d9dba745b)
+
 
 
 OpenXLab 部署教程：https://github.com/InternLM/Tutorial/tree/camp2/tools/openxlab-deploy
